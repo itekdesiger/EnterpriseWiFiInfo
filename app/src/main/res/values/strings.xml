@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EnterpriseWifiInfo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="SSID_name_hint">Name of SSID to inspect</string>
+    <string name="Get_EAP_Identity">Read EAP Indentity</string>
+    <string name="SetSSIDName">Please insert an SSID name</string>
+    <string name="NoEAPIdentity">No value found</string>
+
+</resources>
