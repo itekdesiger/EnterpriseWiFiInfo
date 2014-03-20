@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/SSID_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/SSID_name_hint"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/EAP_Identity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/get_eap_identity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Get_EAP_Identity"/>
+
+</LinearLayout>
+<!-- From: file:/Users/pietro/Sorgenti/Books/AP-BNRG/EnterpriseWifiInfo/app/src/main/res/layout/activity_main.xml -->
